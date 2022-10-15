@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
 
 body {
@@ -88,14 +89,47 @@ home h3 {
 
 /* Footer */
 footer {
-  background-color: rgb(180 71 124);
+  background-color: limegreen;
   display: grid;
-  /* grid-template-rows: auto auto; */
+  max-width: 100%;
+  max-width: 100%;
   grid-template-columns: auto auto;
 }
 
 footer div {
-  background-color: #45B08C;
+  color: midnightblue;
+  font-size: 14px;
+  /* background-color: #45B08C; */
   height: 200px;
-  width: 50vw;
+  width: 45vw;
+}
+
+#g_line {
+  background-color: #6d5e5e;
+  position: absolute;
+  height: 20px;
+  width: 30px;
+  border-radius: 10px;
+  transform: rotate(0deg);
+  left: 44%;
+  height: 18%;
+  bottom: -17%;
+  width: 0.5vw;
+  margin: 16px 10px;
+}
+
+.icon{
+  height: 5vh;
+  width: auto;
+}
+
+footer ul{
+  margin: 15px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+footer li{
+  list-style: none;
 }
